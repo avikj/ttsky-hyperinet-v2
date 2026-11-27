@@ -1,201 +1,240 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+HYPERACTIVE ANTI-CAPITALIST COMMONS & COMMERCIAL LICENSE
+Version 1.0 (Copyfarleft · Non-Capitalist Network Share-Alike + Paid Commercial Dual License)
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+Copyright (c) 2026 Hyperactive Labs, Inc. and Avik Jain.
+All rights reserved except as expressly granted in this License.
 
-   1. Definitions.
+Commercial Licensing & Inquiries:
+  Hyperactive Labs, Inc. (Attn: Avik Jain)
+  Email: root@hyperactivity.ai
+  Web:   https://hyperactivity.ai
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+================================================================================
+SUMMARY OF INTENT (NON-BINDING OVERVIEW; OPERATIVE TERMS FOLLOW IN SECTIONS 1-9)
+================================================================================
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+Standard permissive licenses (MIT, Apache, BSD) and standard Open Source
+copyleft licenses (GPL, AGPL) are not anti-capitalist: they allow investor-owned
+corporations, financial institutions, cloud monopolies, and commercial AI
+laboratories to extract uncompensated value from the intellectual commons, run
+internal proprietary deployments, and train closed foundation models without
+paying or reciprocating to the creators or the commons.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+This License establishes a strict Copyfarleft dual regime:
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+  1. FREE FOR HUMAN INTELLIGENCE OUTSIDE CAPITALIST ENTERPRISE (COMMONS GRANT):
+     Any natural person acting outside capitalist employment/enterprise, any
+     student, educator, independent researcher, non-commercial academic or
+     public-interest research group, charitable nonprofit, or democratically
+     governed 100% worker-owned cooperative may freely read, compile, execute,
+     verify, modify, teach, and share The Work — provided that all shared or
+     network-served derivatives remain under this exact License with full
+     machine-readable source disclosed (Strong Network Share-Alike).
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+  2. PAID LICENSE REQUIRED FOR CAPITALIST ENTITIES & COMMERCIAL / AI USE:
+     Zero rights are granted under this License to any for-profit corporation,
+     venture-backed or investor-owned business, hedge fund or trading firm,
+     commercial cloud provider, commercial silicon vendor, or commercial AI
+     laboratory. Capitalist Entities must purchase a written commercial license
+     from Hyperactive Labs, Inc. before copying, compiling, running, evaluating,
+     deploying, fabricating hardware from, or training AI models on The Work.
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+================================================================================
+OPERATIVE TERMS AND CONDITIONS
+================================================================================
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+1. DEFINITIONS
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+1.1 "Licensor" means Hyperactive Labs, Inc. and Avik Jain, together with any
+    successor or assign of their copyright and licensing authority.
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+1.2 "The Work" means all material distributed in or replicated from this
+    repository or its content-addressed pool (`store/`), including without
+    limitation all `.cub` and `.hypercubical` modules, C and assembly sources,
+    interaction-net runtimes, typecheckers, compilers, lifters, formal proofs,
+    mathematical and scientific derivations, RTL/GDSII silicon descriptions,
+    web interfaces, documentation, essays, and content-addressed objects.
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+1.3 "Derivative Work" means any modification, translation, port, lowering,
+    compilation, lifted or emitted code (including C, Rust, LLVM IR, x86-64,
+    WASM, Verilog/RTL, or GDSII), linked system, or extension of the content-
+    addressed pool that incorporates, adapts, or depends upon any protected
+    expression of The Work.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+1.4 "Commons Licensee" means exclusively:
+    (a) a natural person acting strictly in an individual, personal, artistic,
+        educational, or independent scientific capacity, outside the scope of
+        any employment, consultancy, agency, or fiduciary duty for a Capitalist
+        Entity;
+    (b) a public school, public or non-profit university, or registered
+        non-profit charitable/scientific organization (such as a U.S. IRC
+        501(c)(3) organization or international equivalent) acting solely for
+        non-commercial education, open scientific research, or non-commercial
+        public service, provided no Capitalist Entity receives exclusive,
+        proprietary, or preferential commercial rights in the resulting work;
+    (c) a democratically governed worker-owned cooperative in which (i) 100%
+        of voting governance and residual surplus belong to its worker-members
+        on a one-worker-one-vote basis, (ii) zero equity, convertible debt
+        carrying governance/royalty extraction, or profit participation is held
+        by non-worker investors, and (iii) the cooperative does not employ
+        non-member wage labor (other than a transparent, time-bounded
+        probationary track of twelve months or less leading directly to full
+        worker-membership); or
+    (d) an unincorporated non-commercial collective or peer-to-peer commons
+        operating without revenue extraction, investor ownership, or wage labor.
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+1.5 "Capitalist Entity" means any legal person, enterprise, organization, or
+    arrangement that is not a Commons Licensee. Without limitation, "Capitalist
+    Entity" includes every privately or publicly held for-profit corporation,
+    limited liability company, partnership, venture-backed startup, sole
+    proprietorship employing non-owner labor, bank, hedge fund, market maker,
+    proprietary trading firm, asset manager, insurance company, defense or
+    intelligence contractor, telecommunications or cloud operator, semiconductor
+    company, and commercial AI or research laboratory (including any "capped-
+    profit" entity, public-benefit corporation, or for-profit subsidiary or
+    affiliate of a non-profit foundation).
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+1.6 "Capitalist or Commercial Use" means any reproduction, storage, compilation,
+    execution, evaluation, benchmarking, internal research and development,
+    internal tooling, production deployment, network or SaaS hosting, consulting
+    delivery, financial/trading execution, hardware/FPGA/ASIC/GDSII synthesis
+    or fabrication, or distribution of The Work or any Derivative Work:
+    (a) by, at the direction of, or for the benefit of a Capitalist Entity;
+    (b) by any employee, officer, founder, partner, contractor, or agent of a
+        Capitalist Entity acting within the scope of their engagement or using
+        equipment, cloud accounts, or funds of a Capitalist Entity; or
+    (c) in exchange for commercial fees, subscriptions, licensing revenue,
+        advertising, data monetization, financial trading return, or privately
+        appropriated commercial advantage.
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+1.7 "AI & Automated Model Ingestion" means any scraping, copying, curation,
+    tokenization, pre-training, continued training, fine-tuning, reinforcement
+    learning, preference optimization, reward modeling, proof/trace harvesting,
+    synthetic-data generation, knowledge distillation, embedding generation, or
+    retrieval-augmented generation (RAG) performed on or using The Work or any
+    output generated by executing The Work.
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+2. COMMONS LICENSE GRANT (COPYFARLEFT)
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+Subject to strict and continuous compliance with Sections 3 and 4, Licensor
+hereby grants to each Commons Licensee a worldwide, royalty-free, non-exclusive,
+non-sublicensable license under Licensor's copyrights (and, to the extent
+stated in Section 6, Licensor's essential patent claims) to:
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+  (a) clone, copy, store, inspect, compile, execute, and formally verify The
+      Work for non-capitalist Commons purposes;
+  (b) create Derivative Works for non-capitalist Commons purposes; and
+  (c) distribute copies of The Work and Derivative Works to other Commons
+      Licensees, and operate public non-commercial peer-to-peer or web nodes
+      from The Work, strictly under the terms of this License.
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+3. STRONG NETWORK SHARE-ALIKE & ANTI-ENCLOSURE CONDITIONS
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+The grant in Section 2 is expressly conditioned on all of the following:
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+3.1 Same License Only (No Permissive Laundering). Every copy of The Work and
+    every Derivative Work that you distribute, publish, replicate into a public
+    content-addressed pool, or make available to any third party must be
+    licensed as a whole under this exact License (or, at your option, a later
+    version published by Licensor). You may not relicense The Work or any
+    Derivative Work under MIT, BSD, Apache, GPL, AGPL, Creative Commons, or
+    proprietary terms, nor impose additional restrictions on Commons Licensees.
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+3.2 Network & Peer-to-Peer Source Disclosure. If you modify The Work or create
+    a Derivative Work (including extending `store/` modules, altering server or
+    kernel behavior, or compiling specialized binaries/WASM/silicon) and enable
+    users to interact with it remotely over any network (HTTP, WebSocket,
+    WebRTC, P2P content-addressed sync, RPC, or remote proof checking), you must
+    prominently provide every interacting user immediate, no-charge network
+    access to download the complete corresponding machine-readable source text
+    and content-addressed dependency closure under this License.
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+3.3 Preservation of Notices & Content Provenance. You must retain intact all
+    copyright, authorship, attribution, cryptographic hash, and license notices
+    in every source file, `README`, user interface footer, and replicated store
+    manifest.
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
+4. EXPRESS EXCLUSION OF CAPITALIST ENTITIES, COMMERCIAL USE & AI SCRAPING
 
-   END OF TERMS AND CONDITIONS
+4.1 Zero License to Capitalist Entities ("Pay to Touch"). THIS LICENSE GRANTS
+    ZERO RIGHTS TO ANY CAPITALIST ENTITY AND ZERO RIGHTS FOR ANY CAPITALIST OR
+    COMMERCIAL USE. Without a separate, written, fee-bearing commercial license
+    agreement executed in advance by Hyperactive Labs, Inc., a Capitalist
+    Entity has no permission under copyright, patent, or applicable law to
+    clone, download, store, copy, compile, execute, test, benchmark, link,
+    modify, deploy, host, synthesize hardware from, or otherwise use The Work
+    in whole or in part — including strictly internal corporate R&D, evaluation,
+    or employee use on corporate systems.
 
-   APPENDIX: How to apply the Apache License to your work.
+4.2 Prohibition on Unlicensed AI Training & Distillation.
+    (a) Capitalist Entities and commercial AI laboratories are strictly
+        prohibited from performing any AI & Automated Model Ingestion (Section
+        1.7) on The Work without an executed paid AI Licensing Agreement with
+        Hyperactive Labs, Inc. Presence of The Work in a publicly readable git
+        repository or decentralized web seed constitutes publication for human
+        and Commons inspection ONLY and explicitly opts out of all statutory or
+        implied text-and-data-mining (TDM) exceptions to the maximum extent
+        permitted by law (including EU Directive 2019/790 Article 4(3)).
+    (b) A Commons Licensee may perform AI & Automated Model Ingestion on The
+        Work solely to train or evaluate a non-commercial model whose complete
+        weights, training code, and training manifest are publicly released
+        under an anti-capitalist commons license no less protective against
+        commercial capture than this License.
 
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+4.3 Anti-Circumvention. No Capitalist Entity may circumvent Section 4.1 or 4.2
+    by acting through an individual employee's personal account, an independent
+    contractor, a university lab, a non-profit wrapper, or an affiliate. Any
+    upstream contribution voluntarily submitted to this repository by a third
+    party is provided under this License and grants Licensor the non-exclusive
+    right to include that contribution in both Commons and commercial releases,
+    unless expressly marked otherwise at submission.
 
-   Copyright [yyyy] [name of copyright owner]
+5. COMMERCIAL LICENSING
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+Capitalist Entities wishing to obtain legal rights to evaluate, use, deploy,
+embed, manufacture hardware from, or train models on The Work may apply for a
+paid commercial license from:
 
-       http://www.apache.org/licenses/LICENSE-2.0
+  Hyperactive Labs, Inc.
+  Attn: Avik Jain — Commercial Licensing
+  Email: root@hyperactivity.ai
+  Web:   https://hyperactivity.ai
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+6. PATENT GRANT & DEFENSIVE TERMINATION
+
+Licensor grants each compliant Commons Licensee a royalty-free, non-exclusive
+license under any patent claims owned or licensable by Licensor that are
+necessarily infringed by The Work as distributed by Licensor, solely within the
+scope of Section 2. Every grant of rights under this License terminates
+automatically and retroactively if you (or any affiliate) initiate, fund, or
+assert any patent, copyright, or other claim alleging that The Work or its use
+infringes any right.
+
+7. AUTOMATIC TERMINATION & REMEDIES
+
+Any use of The Work outside the scope of Section 2 or in breach of Section 3 or
+Section 4 automatically and immediately terminates any rights you hold under
+this License without notice. Unauthorized Capitalist or Commercial Use or
+unauthorized AI & Automated Model Ingestion constitutes willful infringement,
+entitling Licensor to injunctive relief, statutory and actual damages,
+disgorgement of commercial profits and trained-model value, and recovery of
+attorneys' fees to the fullest extent of the law.
+
+8. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY
+
+THE WORK IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT. IN NO EVENT SHALL
+LICENSOR OR ANY AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION
+WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+
+9. SEVERABILITY & GOVERNING LAW
+
+If any provision of this License is held unenforceable in any jurisdiction,
+that provision shall be reformed to the minimum extent necessary to achieve its
+anti-capitalist, anti-enclosure intent (and if not reformable, severed without
+affecting the remaining provisions, provided that no severance shall ever expand
+the grant of rights to any Capitalist Entity). This License is governed by the
+federal copyright and patent laws of the United States and the laws of the State
+of California, without regard to conflict-of-laws rules.
