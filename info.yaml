@@ -1,0 +1,39 @@
+yaml_version: 6
+
+project:
+  title:        "HyperINet v2 — Programmable Dual-Lane Non-von-Neumann Interaction-Net Processor"
+  author:       "Avik Jain (Hyperactive Labs, Inc.)"
+  discord:      ""
+  description:  "Zero-PC, zero-ISA dual-lane parallel Lafont interaction-net processor with fused 8-bit arithmetic and runtime wire-graph loader, compiled directly from .hypercubical."
+  language:     "Verilog"
+  clock_hz:     50000000
+  tiles:        "4x2"
+  top_module:   "tt_um_hyperinet"
+  source_files:
+    - "project.v"
+
+pinout:
+  ui[0]: "load_data[0]"
+  ui[1]: "load_data[1]"
+  ui[2]: "load_data[2]"
+  ui[3]: "load_data[3]"
+  ui[4]: "load_data[4]"
+  ui[5]: "load_data[5]"
+  ui[6]: "load_data[6]"
+  ui[7]: "load_data[7]"
+  uo[0]: "read_mode ? read_val[0] : live_nodes[0]"
+  uo[1]: "read_mode ? read_val[1] : live_nodes[1]"
+  uo[2]: "read_mode ? read_val[2] : live_nodes[2]"
+  uo[3]: "read_mode ? read_val[3] : redex_count[0]"
+  uo[4]: "read_mode ? read_val[4] : redex_count[1]"
+  uo[5]: "read_mode ? read_val[5] : redex_count[2]"
+  uo[6]: "read_mode ? read_val[6] : dual_fire"
+  uo[7]: "read_mode ? read_val[7] : done"
+  uio[0]: "load_en"
+  uio[1]: "slot_sel[0]"
+  uio[2]: "slot_sel[1]"
+  uio[3]: "slot_sel[2]"
+  uio[4]: "field_sel[0]"
+  uio[5]: "field_sel[1]"
+  uio[6]: "unused"
+  uio[7]: "read_mode"
