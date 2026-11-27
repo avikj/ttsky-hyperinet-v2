@@ -23,7 +23,7 @@ module hyperinet_core (
   reg [4:0] p2   [0:7];
   reg [7:0] val  [0:7];
   reg [2:0] rcnt;
-  integer i, j;
+  integer ic, jc, ir;
   // Combinational dual-lane disjoint active-pair scanner & free-slot allocator
   reg       fnd0, fnd1;
   reg [2:0] u0, v0, u1, v1, f0_idx, f1_idx;
@@ -34,22 +34,22 @@ module hyperinet_core (
   always @(*) begin
     fnd0 = 1'b0; fnd1 = 1'b0; u0 = 3'd0; v0 = 3'd0; u1 = 3'd0; v1 = 3'd0;
     f0_idx = 3'd0; f1_idx = 3'd0; free_cnt = 2'd0; live_c = 3'd0;
-    for (i = 0; i < 8; i = i + 1) begin
-      if (kind[i] == K_FREE) begin
-        if (free_cnt == 2'd0) f0_idx = i[2:0];
-        if (free_cnt == 2'd1) f1_idx = i[2:0];
+    for (ic = 0; ic < 8; ic = ic + 1) begin
+      if (kind[ic] == K_FREE) begin
+        if (free_cnt == 2'd0) f0_idx = ic[2:0];
+        if (free_cnt == 2'd1) f1_idx = ic[2:0];
         if (free_cnt < 2'd2)  free_cnt = free_cnt + 2'd1;
       end else live_c = live_c + 3'd1;
     end
-    for (i = 0; i < 8; i = i + 1) begin
-      for (j = i + 1; j < 8; j = j + 1) begin
-        if (kind[i] != K_FREE && kind[j] != K_FREE &&
-            p0[i] == {j[2:0], 2'd0} && p0[j] == {i[2:0], 2'd0}) begin
+    for (ic = 0; ic < 8; ic = ic + 1) begin
+      for (jc = ic + 1; jc < 8; jc = jc + 1) begin
+        if (kind[ic] != K_FREE && kind[jc] != K_FREE &&
+            p0[ic] == {jc[2:0], 2'd0} && p0[jc] == {ic[2:0], 2'd0}) begin
           if (!fnd0) begin
-            fnd0 = 1'b1; u0 = i[2:0]; v0 = j[2:0];
-          end else if (!fnd1 && i[2:0] != u0 && i[2:0] != v0 && j[2:0] != u0 && j[2:0] != v0 &&
-                       !((kind[i]==K_CON && kind[j]==K_DUP) || (kind[i]==K_DUP && kind[j]==K_CON))) begin
-            fnd1 = 1'b1; u1 = i[2:0]; v1 = j[2:0];
+            fnd0 = 1'b1; u0 = ic[2:0]; v0 = jc[2:0];
+          end else if (!fnd1 && ic[2:0] != u0 && ic[2:0] != v0 && jc[2:0] != u0 && jc[2:0] != v0 &&
+                       !((kind[ic]==K_CON && kind[jc]==K_DUP) || (kind[ic]==K_DUP && kind[jc]==K_CON))) begin
+            fnd1 = 1'b1; u1 = ic[2:0]; v1 = jc[2:0];
           end
         end
       end
@@ -116,8 +116,8 @@ module hyperinet_core (
   always @(posedge clk or negedge rst_n) begin
     if (!rst_n) begin
       rcnt <= 3'd0;
-      for (i = 0; i < 8; i = i + 1) begin
-        kind[i] <= K_FREE; p0[i] <= 5'd3; p1[i] <= 5'd3; p2[i] <= 5'd3; val[i] <= 8'd0;
+      for (ir = 0; ir < 8; ir = ir + 1) begin
+        kind[ir] <= K_FREE; p0[ir] <= 5'd3; p1[ir] <= 5'd3; p2[ir] <= 5'd3; val[ir] <= 8'd0;
       end
       // Built-in dual-lane parallel showcase: (17 + 25 = 42) || DUP(10)
       kind[0] <= K_NUM; val[0] <= 8'd17; p0[0] <= {3'd1, 2'd0};
